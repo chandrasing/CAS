@@ -1,0 +1,6 @@
+dependencies {
+	compile (
+			project(':shared'),
+			project(':worker')
+	)
+}

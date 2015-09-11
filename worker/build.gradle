@@ -1,0 +1,8 @@
+dependencies {
+	compile(
+			project(':shared'),
+			'com.typesafe.akka:akka-actor_2.11:2.4.0-RC1',
+			'com.typesafe.akka:akka-slf4j_2.12.0-M2:2.4.0-RC1',
+			'ch.qos.logback:logback-classic:1.1.3'
+	)
+}
